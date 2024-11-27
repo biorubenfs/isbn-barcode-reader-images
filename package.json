@@ -1,0 +1,17 @@
+{
+  "name": "barcode-reader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generator": "node ./src/html-generator.js",
+    "export": "node ./src/books.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zxing/library": "^0.21.3",
+    "ulid": "^2.3.0"
+  }
+}
